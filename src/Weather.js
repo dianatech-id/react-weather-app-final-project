@@ -70,6 +70,7 @@ export default function Weather(props) {
         <br />
         <WeatherInfo data={weatherData} />
         <hr />
+        <br />
         <WeatherForecast coordinates={weatherData.coordinates} />
         <br />
       </div>

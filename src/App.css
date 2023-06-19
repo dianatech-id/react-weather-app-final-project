@@ -1,3 +1,9 @@
+body {
+  background-image: url(images.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .weather-app {
   max-width: 750px;
   margin: 0px auto;
@@ -7,9 +13,15 @@ footer p {
   font-size: 16px;
   padding-top: 15px;
   padding-left: 39px;
+  color: white;
+  font-weight: bold;
+}
+
+.form-control {
+  opacity: 0.8;
 }
 
 footer a {
-  text-decoration: none;
-  color: #a47fe0;
+  color: #c3afe2;
+  font-weight: bold;
 }
